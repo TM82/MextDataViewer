@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MextDataViewer</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1>MextDataViewer</h1>
+    <p class="desc">フォルダ → ファイル（CSV） → 行・列（単一選択）。ヘッダクリックで並べ替えできます。</p>
+    <p id="status" class="status"></p>
+  </header>
+
+  <section class="controls">
+    <label>フォルダ: <select id="folderSelect"><option value="">選択</option></select></label>
+    <label>ファイル: <select id="fileSelect" disabled><option value="">選択</option></select></label>
+    <label>行（1列目の値）: 
+      <select id="rowSelect" disabled><option value="">未選択（全行）</option></select>
+    </label>
+    <label>列（1行目の見出し）: 
+      <select id="colSelect" disabled><option value="">未選択（全列）</option></select>
+    </label>
+  </section>
+
+  <section class="table-wrap">
+    <table id="dataTable"></table>
+  </section>
+
+  <footer>
+    <small>CSVはカンマ/タブ対応、BOM除去・空行無視。配信は<strong>リポジトリ直下</strong>で行い、<code>/docs/</code>にアクセス。</small>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
