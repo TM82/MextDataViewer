@@ -1,6 +1,7 @@
 set -euo pipefail
 echo "[pre-commit] Generating docs/data/index.json ..."
 python3 generate_index.py --data-dir docs/data --label-mode full
+git add -N docs/data/index.json 2>/dev/null || true
 if ! git diff --quiet -- docs/data/index.json; then
   git add docs/data/index.json
   echo "[pre-commit] Updated and staged docs/data/index.json"
