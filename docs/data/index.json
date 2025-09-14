@@ -21,6 +21,13 @@
           "notes": [
             { "label": "NIAD 大学基本情報", "url": "https://portal.niad.ac.jp/ptrt/table.html" }
           ]
+        },
+        {
+          "title": "(30-2) 職業別就職者数，産業別就職者数",
+          "path": "data/大学基本情報/2024/(30-2) 職業別就職者数，産業別就職者数.csv",
+          "notes": [
+            { "label": "NIAD 大学基本情報", "url": "https://portal.niad.ac.jp/ptrt/table.html" }
+          ]
         }
       ]
     }
