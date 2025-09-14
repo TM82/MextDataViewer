@@ -41,3 +41,8 @@ python3 -m http.server 8000
 }
 ```
 保存して公開すればUI上のフォルダ／ファイルに反映されます。
+
+フォルダの階層は任意でOKです。その場合、以下をルートディレクトリで実行してください。commitした時に、自動でindex.jsonが更新されます。
+```bash
+git config core.hooksPath .githooks
+```
