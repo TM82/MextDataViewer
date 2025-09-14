@@ -5,7 +5,10 @@
       "files": [
         {
           "title": "日本_参考資料4-1",
-          "path": "data/NISTEP_日英独ベンチマーキング2023/日本_参考資料4-1.csv"
+          "path": "data/NISTEP_日英独ベンチマーキング2023/日本_参考資料4-1.csv",
+          "notes": [
+            { "label": "NISTEP: 参考資料4-1", "url": "https://nistep.repo.nii.ac.jp/records/2000110" }
+          ]
         }
       ]
     },
@@ -14,7 +17,10 @@
       "files": [
         {
           "title": "(30-1) 状況別卒業者数，入学年度別卒業者数",
-          "path": "data/大学基本情報/2024/(30-1) 状況別卒業者数，入学年度別卒業者数.csv"
+          "path": "data/大学基本情報/2024/(30-1) 状況別卒業者数，入学年度別卒業者数.csv",
+          "notes": [
+            { "label": "NIAD 大学基本情報", "url": "https://portal.niad.ac.jp/ptrt/table.html" }
+          ]
         }
       ]
     }

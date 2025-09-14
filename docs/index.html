@@ -9,7 +9,7 @@
 <body>
   <header>
     <h1>MextDataViewer</h1>
-    <p class="desc">フォルダ → ファイル（CSV） → 行・列（単一選択）。ヘッダクリックで並べ替え。</p>
+    <p class="desc">フォルダ → ファイル（CSV） → 行・列（単一選択）。ヘッダクリックで並べ替え & 出典リンク表示。</p>
     <p id="status" class="status"></p>
   </header>
 
@@ -29,7 +29,8 @@
   </section>
 
   <footer>
-    <small>公開データより作成。</small>
+    <div id="notesBox" class="notes" aria-live="polite"></div>
+    <small>docs/data の index.json から相対参照。GitHub Pages の /docs 公開対応。</small>
   </footer>
 
   <script defer src="./app.js"></script>

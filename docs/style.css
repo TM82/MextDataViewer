@@ -13,5 +13,11 @@ thead th{position:sticky;top:0;background:#fff;cursor:pointer}
 thead th .sort-ind{margin-left:6px;color:#888}
 thead th.sort-asc .sort-ind::after{content:"▲"}
 thead th.sort-desc .sort-ind::after{content:"▼"}
-select:disabled{opacity:.6}
 footer{padding:16px 20px;color:#666}
+.notes{margin:8px 0 12px 0;padding:8px 10px;border-left:3px solid #ddd;background:#fff}
+.notes strong{margin-right:6px}
+.notes ul{margin:6px 0 0 0;padding-left:18px}
+.notes li{margin:2px 0}
+.notes a{color:#0366d6;text-decoration:none}
+.notes a:hover{text-decoration:underline}
+select:disabled{opacity:.6}
