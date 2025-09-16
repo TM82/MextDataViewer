@@ -30,6 +30,39 @@
           ]
         }
       ]
+    },
+    {
+      "folder": "学校基本調査/関係学科別卒業生数",
+      "files": [
+        {
+          "title": "R5_学士状況別",
+          "path": "data/学校基本調査/関係学科別卒業生数/R5_学士状況別.csv",
+          "notes": [
+            { "label": "R5_学校基本調査", "url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00400001&tstat=000001011528" }
+          ]
+        },
+        {
+          "title": "R5_修士状況別",
+          "path": "data/学校基本調査/関係学科別卒業生数/R5_修士状況別.csv",
+          "notes": [
+            { "label": "R5_学校基本調査", "url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00400001&tstat=000001011528" }
+          ]
+        },
+        {
+          "title": "R5_博士状況別",
+          "path": "data/学校基本調査/関係学科別卒業生数/R5_博士状況別.csv",
+          "notes": [
+            { "label": "R5_学校基本調査", "url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00400001&tstat=000001011528" }
+          ]
+        },
+        {
+          "title": "R5_博士職業別",
+          "path": "data/学校基本調査/関係学科別卒業生数/R5_博士職業別.csv",
+          "notes": [
+            { "label": "R5_学校基本調査", "url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00400001&tstat=000001011528" }
+          ]
+        }
+      ]
     }
   ]
 }
