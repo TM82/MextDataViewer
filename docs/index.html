@@ -9,17 +9,17 @@
 <body>
   <header>
     <h1>MextDataViewer</h1>
-    <p class="desc">フォルダ → ファイル（CSV） → 行・列（単一選択）。ヘッダ固定・並べ替え・列フィルタ・出典リンク。</p>
+    <p class="desc">主に文部科学省系の公開データを検索することができます。列でフィルタリング、ソートすることが可能です。</p>
     <p id="status" class="status"></p>
   </header>
 
   <section class="controls">
-    <label>フォルダ: <select id="folderSelect"><option value="">選択</option></select></label>
-    <label>ファイル: <select id="fileSelect" disabled><option value="">選択</option></select></label>
-    <label>行（1列目の値）: 
+    <label>ルート: <select id="folderSelect"><option value="">選択</option></select></label>
+    <label>データ名: <select id="fileSelect" disabled><option value="">選択</option></select></label>
+    <label>(オプション)行: 
       <select id="rowSelect" disabled><option value="">未選択（全行）</option></select>
     </label>
-    <label>列（1行目の見出し）: 
+    <label>(オプション)列: 
       <select id="colSelect" disabled><option value="">未選択（全列）</option></select>
     </label>
   </section>
@@ -30,7 +30,7 @@
 
   <footer>
     <div id="notesBox" class="notes" aria-live="polite"></div>
-    <small>docs/data の index.json から相対参照。GitHub Pages の /docs 公開対応。</small>
+    <small>Credit: <a href="https://github.com/TM82">https://github.com/TM82</a> （本データは個人により作成されたもので、実際の値と異なる可能性がありますので、ご了承ください。）</small>
   </footer>
 
   <div id="filterPopover" class="filter-popover hidden" role="dialog" aria-modal="true" aria-label="列フィルタ"></div>
