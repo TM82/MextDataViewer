@@ -65,46 +65,46 @@
       ]
     },
     {
-      "folder": "NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析",
+      "folder": "NISTEP_研究専従時間",
       "files": [
         {
           "title": "2001-2017_FTE研究開発費_大学・学問分野別",
-          "path": "data/NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析/2001-2017_FTE研究開発費_大学・学問分野別.csv",
+          "path": "data/NISTEP_研究専従時間/2001-2017_FTE研究開発費_大学・学問分野別.csv",
           "notes": [
             { "label": "NISTEP報告書(2020) NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析", "url": "https://nistep.repo.nii.ac.jp/records/6704" }
           ]
         },
         {
           "title": "2001-2017_FTE研究者数_大学・学問分野別",
-          "path": "data/NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析/2001-2017_FTE研究者数_大学・学問分野別",
+          "path": "data/NISTEP_研究専従時間/2001-2017_FTE研究者数_大学・学問分野別.csv",
           "notes": [
             { "label": "NISTEP報告書(2020) NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析", "url": "https://nistep.repo.nii.ac.jp/records/6704" }
           ]
         },
         {
           "title": "2002-2018_研究専従換算係数_教員",
-          "path": "data/NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析/2002-2018_研究専従換算係数_教員.csv",
+          "path": "data/NISTEP_研究専従時間/2002-2018_研究専従換算係数_教員.csv",
           "notes": [
             { "label": "NISTEP報告書(2020) NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析", "url": "https://nistep.repo.nii.ac.jp/records/6704" }
           ]
         },
         {
           "title": "2002-2018_研究専従換算係数_博士課程",
-          "path": "data/NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析/2002-2018_研究専従換算係数_博士課程.csv",
+          "path": "data/NISTEP_研究専従時間/2002-2018_研究専従換算係数_博士課程.csv",
           "notes": [
             { "label": "NISTEP報告書(2020) NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析", "url": "https://nistep.repo.nii.ac.jp/records/6704" }
           ]
         },
         {
           "title": "2002-2018_研究専従換算係数_医局員・その他",
-          "path": "data/NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析/2002-2018_研究専従換算係数_医局員・その他.csv",
+          "path": "data/NISTEP_研究専従時間/2002-2018_研究専従換算係数_医局員・その他.csv",
           "notes": [
             { "label": "NISTEP報告書(2020) NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析", "url": "https://nistep.repo.nii.ac.jp/records/6704" }
           ]
         },
         {
           "title": "2018_FTE調査",
-          "path": "data/NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析/2018_FTE調査.csv",
+          "path": "data/NISTEP_研究専従時間/2018_FTE調査.csv",
           "notes": [
             { "label": "NISTEP報告書(2020) NISTEP_研究専従換算係数を考慮した日本の大学の研究開発費及び研究者数の詳細分析", "url": "https://nistep.repo.nii.ac.jp/records/6704" }
           ]
